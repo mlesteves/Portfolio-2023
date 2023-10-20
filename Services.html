@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/875f003cb1.js" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="Style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-wrapper grey darken-3">
+            <div class="container">
+                <a href="#" class="brand-logo">
+                <img src="Picture/Logo.jpg" alt="" width="60" height="auto circle"></a>
+                <a href=""></a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+                  <i class="material-icons">menu</i>
+                </a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Aboutme.html">About Me</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                  </ul>
+            </div>
+          
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Aboutme.html">Aboutme</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+
+    <h3 class="center">Services</h3>
+    <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="Picture/Ads.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3 class="red-text">Facebook Ads</h3>
+              <h5 class="red-text">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="Picture/Content.jpg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3 class="red-text">Content Creation</h3>
+              <h5 class="red-text">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="Picture/GraphicDesign.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3 class="red-text">Graphic Design</h3>
+              <h5 class="red-text">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="Picture/SMM.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3 class="red-text text-darken-4">Social Media Marketing</h3>
+              <h5 class="red-text">Here's our small slogan.</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    
+    <h3 class="center">Samples</h3>
+    <div class="container">
+        <img src="Picture/Image1.png" alt="" class="materialboxed responsive-img">
+        <img src="Picture/Image2.png" alt="" class="materialboxed responsive-img">
+    </div>
+      
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            // materialbox init
+            $('.materialboxed').materialbox();
+            // Slider init
+            $('.slider').slider();
+            // sidenav init
+            $('.sidenav').sidenav();
+        });
+    </script>
+
+</body>
+</html>

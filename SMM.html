@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/875f003cb1.js" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome cdnjs  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- CSS Style -->
+        <link rel="stylesheet" href="Style.css">
+
+
+
+    <title>Home</title>
+</head>
+<body>
+    <div>
+        <nav class="grey darken-3">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <!-- Navbar -->
+                    <a href="#" class="brand-logo" target="_blank">
+                        <img src="Picture/Logo.jpg" alt="" class="responsive-img" width="65" height="65">
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="Home.html" target="_blank">Home</a>
+                        </li>
+                        <li>
+                            <a href="Aboutme.html" target="_blank">About Me</a>
+                        </li>
+                        <li>
+                            <a href="Services.html" target="_blank">Services</a>
+                        </li>
+                        <li>
+                            <a href="Blog.html" target="_blank">Blog</a>
+                        </li>
+                        <li>
+                            <a href="Contact.html" target="_blank">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Aboutme.html">About Me</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+        <div class="row">
+            <div class="cols 12">
+                <img class="responsive-img" src="Picture/Background.png" alt="" width="auto">
+            </div>
+        </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col s6 center-align">
+                <h4>I'm your Web Designer</h4>
+                <h5>Meg Lean Esteves</h5>
+                <p>
+                    Allow me to introduce myself as a proficient Virtual Assistant and Web Designer with a strong foundation in both administrative support and creative web development. Through my career, I have honed my skills, tackled various challenges, and celebrated numerous achievements. In this blog, I will provide an overview of my background, showcase my diverse skill set, and highlight my accomplishments in these two distinct yet complementary fields.
+                </p>
+            </div>
+            <div class="col s6">
+                <img src="Picture/Photo.jpg" alt="" class="responsive-img">
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container center">
+        <a href="Aboutme.html" class="waves-effect waves-light btn">My Portfolio</a>
+    </div>
+    <br><br><br>
+
+    <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        // Sidenav inet
+        $('.sidenav').sidenav();
+        // Materialboxed inet
+        $('.materialboxed').materialbox();
+        // Slider inet
+        $('.slider').slider();
+    });
+</script>
+            
+</body>
+</html>
